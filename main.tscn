@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cqy0es4b85fdl"]
 
-[ext_resource type="Script" path="res://main.cs" id="1_nm6sc"]
-[ext_resource type="PackedScene" uid="uid://dmqctca1cnm7f" path="res://player.tscn" id="3_58bca"]
+[ext_resource type="Script" path="res://main.cs" id="1_po3b8"]
+[ext_resource type="PackedScene" uid="uid://dmqctca1cnm7f" path="res://player.tscn" id="2_84uph"]
 
 [sub_resource type="Curve2D" id="Curve2D_bs6x4"]
 _data = {
@@ -10,9 +10,9 @@ _data = {
 point_count = 5
 
 [node name="Main" type="Node"]
-script = ExtResource("1_nm6sc")
+script = ExtResource("1_po3b8")
 
-[node name="Player" parent="." instance=ExtResource("3_58bca")]
+[node name="Player" parent="." instance=ExtResource("2_84uph")]
 
 [node name="ScoreTimer" type="Timer" parent="."]
 
